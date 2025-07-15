@@ -96,7 +96,7 @@ modules:
               ServiceKeyName: incident-management-auth-key
               sap.cloud.service: incidentmanagement.service
 
-resources:
+#resources:
   - name: incident-management-auth
     type: org.cloudfoundry.managed-service
     parameters:
